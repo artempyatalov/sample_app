@@ -24,7 +24,8 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 
-gem 'jquery-rails', '2.2.1'
+gem 'jquery-rails', '2.2.1'   #2.1.4
+gem 'jquery-migrate-rails', '~> 1.1.1'
 gem 'annotate', '2.5.0', group: :development
 
 group :test do
